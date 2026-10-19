@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Candle 1 (Bearish red) -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="1.5"
+        android:pathData="M36,46v30" />
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M32.5,52h7v14h-7z" />
+
+    <!-- Candle 2 (Bullish green) -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M54,36v32" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M50.5,42h7v16h-7z" />
+
+    <!-- Candle 3 (Strong Bullish breakout) -->
+    <path
+        android:strokeColor="#00E676"
+        android:strokeWidth="1.5"
+        android:pathData="M72,24v34" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M68.5,28h7v18h-7z" />
+
+    <!-- Algorithmic indicator curve (Fast EMA / Signal Line) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,74 C34,72 44,54 54,49 C64,44 72,34 84,25" />
+
+    <!-- Indicator crossover pulse circle -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M84,25m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84,25m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Algorithmic Trading System",
+  "description": "A comprehensive algorithmic trading platform featuring technical indicators (SMA, EMA, RSI), strategy backtesting, paper trading simulator, risk management, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
